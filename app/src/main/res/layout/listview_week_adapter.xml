@@ -64,7 +64,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
-                android:text="@string/room"
+                android:text="Location"
                 android:textAlignment="center"
                 android:textColor="@android:color/black"
                 android:textSize="18sp"
