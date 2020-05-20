@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AppDev-FluidAlgorithmsTimetableProject.iml" filepath="$PROJECT_DIR$/AppDev-FluidAlgorithmsTimetableProject.iml" group="FluidAlgorithmsTimetableProject" />
       <module fileurl="file://$PROJECT_DIR$/FluidAlgorithmsTimetableProject.iml" filepath="$PROJECT_DIR$/FluidAlgorithmsTimetableProject.iml" group="FluidAlgorithmsTimetableProject" />
-      <module fileurl="file://$PROJECT_DIR$/FluidAlgorithmsTimetableProject1.iml" filepath="$PROJECT_DIR$/FluidAlgorithmsTimetableProject1.iml" group="FluidAlgorithmsTimetableProject1" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="FluidAlgorithmsTimetableProject1/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="FluidAlgorithmsTimetableProject/app" />
     </modules>
   </component>
 </project>
