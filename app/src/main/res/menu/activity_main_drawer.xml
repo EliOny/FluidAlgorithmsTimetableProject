@@ -17,7 +17,7 @@
 
         <item
             android:id="@+id/exams"
-            android:icon="@drawable/baseline_school_black_18"
+            android:icon="@drawable/ic_menu_gallery"
             android:title="@string/exams" />
 
         <item
