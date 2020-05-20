@@ -11,16 +11,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_horizontal">
-
+        <!-- -->
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="School website:"
+            android:text="Social Media Link"
             android:layout_weight=".4" />
 
         <EditText
             android:id="@+id/schoolwebsite_dialog"
-            android:hint="myschool.com"
+            android:hint="facebook.com/yourGroupPage/"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".7"/>
@@ -30,21 +30,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-        <Button
-            android:text="@string/cancel"
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/cancel"
-            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
 
         <Button
-            android:text="@string/save"
-            android:layout_weight="1"
+            android:id="@+id/cancel"
+            style="@style/Widget.AppCompat.Button.Small"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#e5e5e5"
+            android:text="@string/cancel" />
+
+        <Button
             android:id="@+id/save"
-            style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+            style="@style/Widget.AppCompat.Button.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#e5e5e5"
+            android:shape="rectangle"
+            android:text="@string/save"
+
+
+            />
     </LinearLayout>
 
 </LinearLayout>

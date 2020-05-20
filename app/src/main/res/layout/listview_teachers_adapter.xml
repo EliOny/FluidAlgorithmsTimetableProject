@@ -14,7 +14,7 @@
         android:orientation="horizontal"
         card_view:cardCornerRadius="5dp"
         card_view:cardElevation="5dp">
-
+        <!-- -->
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="34dp"
-                android:text="@string/post"
+                android:text="@string/Contacts"
                 android:textAlignment="center"
                 android:textAllCaps="false"
                 android:textColor="@android:color/black"
