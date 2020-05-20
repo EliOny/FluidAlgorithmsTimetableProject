@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/colorPrimary"
     android:padding="15dp">
     <!-- -->
     <LinearLayout
@@ -63,7 +64,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight=".3"
-            android:text="@string/Location"
+            android:text="@string/room"
             android:textColor="@android:color/black" />
 
         <EditText
@@ -98,7 +99,7 @@
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-             />
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -123,7 +124,7 @@
             android:textAlignment="center"
             android:textColor="@android:color/black"
             android:textSize="18sp"
-             />
+            />
     </LinearLayout>
 
     <LinearLayout
@@ -140,7 +141,8 @@
             android:layout_marginBottom="5dp"
             android:layout_marginRight="50dp"
             android:layout_marginLeft="50dp"
-            android:background="@color/white"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#ffffff"
             android:text="@string/select_color"
             android:textAlignment="center"
             android:textSize="18sp"
