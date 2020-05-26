@@ -28,7 +28,7 @@
     <string name="delete">Delete</string>
     <string name="edit">Edit</string>
     <string name="school_website">Social Media</string>
-    <string name="school_website_snackbar">Please, set URL of your school website in settings.</string>
+    <string name="school_website_snackbar">Please, set URL of your business website in settings.</string>
 
     <string name="add_subject">Add subject</string>
     <string name="edit_subject">Edit subject</string>
@@ -49,7 +49,7 @@
     <string name="choose_color">Choose color</string>
 
     <!-- Homeworks Activity strings -->
-    <string name="title_activity_homeworks">HomeworksActivity</string>
+    <string name="title_activity_homeworks">Task</string>
     <string name="homeworks">Tasks</string>
     <string name="select_date">Select date</string>
     <string name="deadline_dialog">Deadline:</string>
@@ -92,11 +92,11 @@
 
     <!-- Settings Activity strings -->
     <string name="sevendays_setting">Enable 7 Days of the Week</string>
-    <string name="school_website_setting">Change school website</string>
-    <string name="school_website_setting_summary">Change URL of your school website</string>
+    <string name="school_website_setting">Change URL Website</string>
+    <string name="school_website_setting_summary">Change URL of your website</string>
 
     <!-- Notification -->
-    <string name="notification_title">Today\'s lessons</string>
-    <string name="do_not_have_lessons">You do not have lessons!</string>
+    <string name="notification_title">Today\'s tasks</string>
+    <string name="do_not_have_lessons">You do not have any tasks!</string>
 
 </resources>

@@ -94,12 +94,8 @@
     <string name="school_website_setting_summary">Changer l\'URL de vos réseaux sociaux</string>
 
     <!-- Notification -->
-    <string name="notification_title">Tâches d\'aujourd'hui</string>
-    <string name="do_not_have_lessons">Vous n\'avez pas de tâches!</string>
-    <string name="Events">Événements</string>
-    <string name="Contacts">Contacts</string>
-    <string name="Tasks" />
-    <string name="Task">Tâche</string>
-    <string name="Location">Emplacement</string>
+    <string name="notification_title">Tâches daujourdhui</string>
+    <string name="do_not_have_lessons">Vous navez pas de tâches!</string>
+
 
 </resources>
