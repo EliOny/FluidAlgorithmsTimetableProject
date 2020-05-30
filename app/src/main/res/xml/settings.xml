@@ -14,4 +14,18 @@
         android:singleLine="true"
         android:title="@string/school_website_setting"
         android:summary="@string/school_website_setting_summary"/>
+    <EditTextPreference
+        android:key="schoolfacebook"
+        android:selectAllOnFocus="true"
+        android:icon="@drawable/baseline_open_in_browser_black_18"
+        android:singleLine="true"
+        android:title="@string/school_facebook_setting"
+        android:summary="@string/school_facebook_setting_summary"/>
+    <EditTextPreference
+        android:key="schooltwitter"
+        android:selectAllOnFocus="true"
+        android:icon="@drawable/baseline_open_in_browser_black_18"
+        android:singleLine="true"
+        android:title="@string/school_twitter_setting"
+        android:summary="@string/school_twitter_setting_summary"/>
 </PreferenceScreen>

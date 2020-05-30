@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-FluidAlgorithmsTimetableProject.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidStudioProjects-FluidAlgorithmsTimetableProject.iml" group="FluidAlgorithmsTimetableProject" />
       <module fileurl="file://$PROJECT_DIR$/FluidAlgorithmsTimetableProject.iml" filepath="$PROJECT_DIR$/FluidAlgorithmsTimetableProject.iml" group="FluidAlgorithmsTimetableProject" />
-      <module fileurl="file://$PROJECT_DIR$/FluidAlgorithmsTimetableProject_Ver1.1.iml" filepath="$PROJECT_DIR$/FluidAlgorithmsTimetableProject_Ver1.1.iml" group="FluidAlgorithmsTimetableProject_Ver1.1" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="FluidAlgorithmsTimetableProject_Ver1.1/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="FluidAlgorithmsTimetableProject/app" />
     </modules>
   </component>
 </project>

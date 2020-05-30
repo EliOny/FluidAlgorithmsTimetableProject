@@ -10,6 +10,14 @@
             android:id="@+id/schoolwebsitemenu"
             android:icon="@drawable/baseline_open_in_browser_black_18"
             android:title="@string/school_website" />
+        <item
+            android:id="@+id/schoolfacebookmenu"
+            android:icon="@drawable/baseline_open_in_browser_black_18"
+            android:title="@string/school_facebook" />
+        <item
+            android:id="@+id/schooltwittermenu"
+            android:icon="@drawable/baseline_open_in_browser_black_18"
+            android:title="@string/school_twitter" />
     </group>
 
     <group android:id="@+id/menu_mid"

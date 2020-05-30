@@ -98,5 +98,13 @@
     <!-- Notification -->
     <string name="notification_title">Today\'s tasks</string>
     <string name="do_not_have_lessons">You do not have any tasks!</string>
+    <string name="school_facebook_snackbar">Please , set URL of your business facebook in settings</string>
+    <string name="school_facebook">Facebook</string>
+    <string name="school_twitter">Twitter</string>
+    <string name="school_twitter_snackbar">Please, set URL of your buisness twitter in settings</string>
+    <string name="school_facebook_setting">Change URL Facebook</string>
+    <string name="school_facebook_setting_summary">Change URL of your facebook</string>
+    <string name="school_twitter_setting">Change URL Twitter</string>
+    <string name="school_twitter_setting_summary">Change URL of your twitter</string>
 
 </resources>

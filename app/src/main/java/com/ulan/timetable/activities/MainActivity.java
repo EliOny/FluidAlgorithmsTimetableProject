@@ -183,6 +183,22 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     Snackbar.make(navigationView, R.string.school_website_snackbar, Snackbar.LENGTH_SHORT).show();
                 }
                 return true;
+            case R.id.schoolfacebookmenu:
+                String schoolFacebook = PreferenceManager.getDefaultSharedPreferences(this).getString(SettingsActivity.KEY_SCHOOL_FACEBOOK_SETTING, null);
+                if(!TextUtils.isEmpty(schoolFacebook)) {
+                    openUrlInChromeCustomTab(getApplicationContext(), schoolFacebook);
+                } else {
+                    Snackbar.make(navigationView, R.string.school_facebook_snackbar, Snackbar.LENGTH_SHORT).show();
+                }
+                return true;
+            case R.id.schooltwittermenu:
+                String schoolTwitter = PreferenceManager.getDefaultSharedPreferences(this).getString(SettingsActivity.KEY_SCHOOL_TWITTER_SETTING, null);
+                if(!TextUtils.isEmpty(schoolTwitter)) {
+                    openUrlInChromeCustomTab(getApplicationContext(), schoolTwitter);
+                } else {
+                    Snackbar.make(navigationView, R.string.school_twitter_snackbar, Snackbar.LENGTH_SHORT).show();
+                }
+                return true;
             case R.id.exams:
                 Intent exams = new Intent(MainActivity.this, ExamsActivity.class);
                 startActivity(exams);
